@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre el Voleibol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏐 Aprende sobre el Voleibol</h1>
+        <p>Haz clic en los botones para descubrir la información de cada categoría.</p>
+    </header>
+
+    <main class="contenedor">
+        <!-- Botones de navegación -->
+        <div class="menu-botones">
+            <button class="btn" onclick="mostrarInfo('reglas')">📜 Reglas Básicas</button>
+            <button class="btn" onclick="mostrarInfo('posiciones')">🏃 Posiciones</button>
+            <button class="btn" onclick="mostrarInfo('equipamiento')">👟 Equipamiento</button>
+            <button class="btn" onclick="mostrarInfo('datos')">⭐ Datos Curiosos</button>
+        </div>
+
+        <!-- Tarjeta donde se muestra la información -->
+        <div id="caja-info" class="tarjeta-info">
+            <h2 id="titulo-info">Selecciona una opción</h2>
+            <p id="texto-info">Haz clic en cualquiera de los botones superiores para ver la información detallada del voleibol.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Proyecto para la tarea de Classroom | Desarrollado en VS Code</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
